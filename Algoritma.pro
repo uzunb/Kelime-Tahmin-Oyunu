@@ -26,19 +26,19 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
+    mainwindow.cpp \
     midialog.cpp \
     imdialog.cpp \
     programlama.cpp
 
 HEADERS += \
-        mainwindow.h \
+    mainwindow.h \
     midialog.h \
     imdialog.h \
     programlama.h
 
 FORMS += \
-        mainwindow.ui \
+    mainwindow.ui \
     midialog.ui \
     imdialog.ui
 
