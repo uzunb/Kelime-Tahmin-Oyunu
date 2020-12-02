@@ -25,22 +25,22 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-    midialog.cpp \
-    imdialog.cpp \
-    programlama.cpp
+        ./src/main.cpp \
+        ./src/mainwindow.cpp \
+    ./src/midialog.cpp \
+    ./src/imdialog.cpp \
+    ./src/programlama.cpp
 
 HEADERS += \
-        mainwindow.h \
-    midialog.h \
-    imdialog.h \
-    programlama.h
+        ./include/mainwindow.h \
+    ./include/midialog.h \
+    ./include/imdialog.h \
+    ./include/programlama.h
 
 FORMS += \
-        mainwindow.ui \
-    midialog.ui \
-    imdialog.ui
+        ./ui/mainwindow.ui \
+    ./ui/midialog.ui \
+    ./ui/imdialog.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -48,4 +48,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    kaynak.qrc
+    ./res/kaynak.qrc
